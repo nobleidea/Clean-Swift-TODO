@@ -32,7 +32,6 @@
 		50CECD5F25B6569200ECA576 /* TODOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD5E25B6569200ECA576 /* TODOTests.swift */; };
 		50CECD6A25B6569200ECA576 /* TODOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD6925B6569200ECA576 /* TODOUITests.swift */; };
 		50CECD7E25B65FEA00ECA576 /* ListTodosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD7C25B65FEA00ECA576 /* ListTodosViewController.swift */; };
-		50CECD7F25B65FEA00ECA576 /* ListTodosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50CECD7D25B65FEA00ECA576 /* ListTodosViewController.xib */; };
 		50CECD8125B666DD00ECA576 /* ListTodosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD8025B666DD00ECA576 /* ListTodosModels.swift */; };
 		50CECD8425B6792900ECA576 /* ListTodosInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD8325B6792900ECA576 /* ListTodosInteractor.swift */; };
 		50CECD8625B6793A00ECA576 /* ListTodosPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CECD8525B6793A00ECA576 /* ListTodosPresenter.swift */; };
@@ -89,7 +88,6 @@
 		50CECD6925B6569200ECA576 /* TODOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TODOUITests.swift; sourceTree = "<group>"; };
 		50CECD6B25B6569200ECA576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50CECD7C25B65FEA00ECA576 /* ListTodosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosViewController.swift; sourceTree = "<group>"; };
-		50CECD7D25B65FEA00ECA576 /* ListTodosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListTodosViewController.xib; sourceTree = "<group>"; };
 		50CECD8025B666DD00ECA576 /* ListTodosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosModels.swift; sourceTree = "<group>"; };
 		50CECD8325B6792900ECA576 /* ListTodosInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosInteractor.swift; sourceTree = "<group>"; };
 		50CECD8525B6793A00ECA576 /* ListTodosPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTodosPresenter.swift; sourceTree = "<group>"; };
@@ -217,7 +215,6 @@
 			children = (
 				50CECD8025B666DD00ECA576 /* ListTodosModels.swift */,
 				50CECD7C25B65FEA00ECA576 /* ListTodosViewController.swift */,
-				50CECD7D25B65FEA00ECA576 /* ListTodosViewController.xib */,
 				50CECD8325B6792900ECA576 /* ListTodosInteractor.swift */,
 				50CECD8525B6793A00ECA576 /* ListTodosPresenter.swift */,
 				50CECD8725B6795300ECA576 /* ListTodosWorker.swift */,
@@ -357,7 +354,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50CECD7F25B65FEA00ECA576 /* ListTodosViewController.xib in Resources */,
 				50CECD5425B6569100ECA576 /* LaunchScreen.storyboard in Resources */,
 				50BC66B325B6E212005E3F72 /* ShowTodoViewController.xib in Resources */,
 				50CECD5125B6569100ECA576 /* Assets.xcassets in Resources */,

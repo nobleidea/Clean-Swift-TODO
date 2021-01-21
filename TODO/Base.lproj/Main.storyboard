@@ -15,8 +15,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kcs-Z4-7hp">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <items>
+                                    <navigationItem title="Title" id="bM2-vF-0e3">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="96h-vf-mrc"/>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IkU-Mt-75B">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodoTableViewCell" textLabel="U6t-nC-Yox" rowHeight="128" style="IBUITableViewCellStyleDefault" id="jWJ-G4-Aor">
@@ -45,10 +53,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="IkU-Mt-75B" firstAttribute="top" secondItem="kcs-Z4-7hp" secondAttribute="bottom" id="5AL-iM-QIV"/>
                             <constraint firstItem="IkU-Mt-75B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8Ox-1d-XDj"/>
-                            <constraint firstItem="IkU-Mt-75B" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="OCO-Pq-e6X"/>
+                            <constraint firstItem="kcs-Z4-7hp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hpq-Co-wsi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IkU-Mt-75B" secondAttribute="trailing" id="Zaz-tk-qlx"/>
+                            <constraint firstAttribute="trailing" secondItem="kcs-Z4-7hp" secondAttribute="trailing" id="Zbp-U6-lj3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="IkU-Mt-75B" secondAttribute="bottom" id="fWu-1Y-th0"/>
+                            <constraint firstItem="kcs-Z4-7hp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="oj2-tQ-CvZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
